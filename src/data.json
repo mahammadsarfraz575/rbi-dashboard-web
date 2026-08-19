@@ -1,0 +1,46 @@
+{
+  "repoTimeline": [
+    { "meet": "Feb '25", "rate": 6.25, "action": "cut", "bps": -25 },
+    { "meet": "Apr '25", "rate": 6.00, "action": "cut", "bps": -25 },
+    { "meet": "Jun '25", "rate": 5.50, "action": "cut", "bps": -50 },
+    { "meet": "Aug '25", "rate": 5.50, "action": "hold", "bps": 0 },
+    { "meet": "Oct '25", "rate": 5.50, "action": "hold", "bps": 0 },
+    { "meet": "Dec '25", "rate": 5.25, "action": "cut", "bps": -25 },
+    { "meet": "Feb '26", "rate": 5.25, "action": "hold", "bps": 0 },
+    { "meet": "Apr '26", "rate": 5.25, "action": "hold", "bps": 0 },
+    { "meet": "Jun '26", "rate": 5.25, "action": "hold", "bps": 0 },
+    { "meet": "Aug '26", "rate": 5.25, "action": "hold", "bps": 0 }
+  ],
+  "cpiTrend": [
+    { "month": "Dec '25", "cpi": 1.33 },
+    { "month": "Feb '26", "cpi": 3.10 },
+    { "month": "Apr '26", "cpi": 3.60 },
+    { "month": "May '26", "cpi": 3.93 },
+    { "month": "Jun '26", "cpi": 4.38 },
+    { "month": "Jul '26", "cpi": 4.45 }
+  ],
+  "gdpForecast": [
+    { "period": "FY25", "gdp": 6.5 },
+    { "period": "FY26", "gdp": 7.4 },
+    { "period": "FY27 (Q1)", "gdp": 6.9 },
+    { "period": "FY27 (Q2 f'cast)", "gdp": 7.0 },
+    { "period": "FY27 (full, Aug'26 est.)", "gdp": 6.7 }
+  ],
+  "eventStudy": {
+    "repoEvents": [
+      { "date": "2025-02-07", "pctMove": -2.92 },
+      { "date": "2025-06-06", "pctMove": 2.44 },
+      { "date": "2025-08-06", "pctMove": 0.08 },
+      { "date": "2025-10-01", "pctMove": 1.72 },
+      { "date": "2025-12-05", "pctMove": -1.05 },
+      { "date": "2026-02-06", "pctMove": 0.88 },
+      { "date": "2026-06-06", "pctMove": -1.14 },
+      { "date": "2026-08-05", "pctMove": 0.82 }
+    ],
+    "budgetEvents": [
+      { "date": "2025-02-01", "pctMove": 2.30 },
+      { "date": "2026-02-01", "pctMove": 1.18 }
+    ],
+    "baseline": { "mean": 0.27, "std": 1.89, "min": -4.10, "max": 5.89 }
+  }
+}
